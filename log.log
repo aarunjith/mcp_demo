@@ -4,7 +4,8 @@ Connected to server with tools: ['get_sessions', 'get_drivers', 'get_laps', 'get
 MCP Client Started!
 Type your queries or 'quit' to exit.
 
-Query => Certainly! I'd be happy to help you get the lap times for both Lando Norris and Max Verstappen in today's race. To do this, we'll need to go through a few steps using the available tools. Let's begin:
+Query => Get me the lap times for lando and max from today's race.
+Certainly! I'd be happy to help you get the lap times for both Lando Norris and Max Verstappen in today's race. To do this, we'll need to go through a few steps using the available tools. Let's begin:
 
 1. First, we need to find out today's date and the current race session.
 2. Then, we'll need to get the session key for today's race.
@@ -32,7 +33,9 @@ Now, let's get the lap times for Lando Norris:
 
 [Calling tool get_laps with args {'session_key': 9693, 'driver_number': 4}]
 
-Query => Certainly! To provide a comprehensive analysis of the sector-wise performance for both Max Verstappen and Lando Norris, including weather data correlation, we'll need to gather the track conditions data as well. Let's start by getting that information:
+Query => Compare the sector-wise performance of both these drivers. Include the weather data and draw any correlations to lap performance and the weather condition.
+
+Certainly! To provide a comprehensive analysis of the sector-wise performance for both Max Verstappen and Lando Norris, including weather data correlation, we'll need to gather the track conditions data as well. Let's start by getting that information:
 
 [Calling tool get_track_conditions with args {'session_key': 9693}]
 Now that we have all the necessary data, let's analyze the sector-wise performance for both drivers and correlate it with the weather data:
